@@ -1,0 +1,295 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; /* Para evitar márgenes extra */
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Aseguramos que Layout ocupe todo el alto y ancho de la pantalla */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Aseguramos que el Sider tenga un ancho adecuado */
+.sider {
+  color: white;
+  /* cursor: pointer; */
+  background-color: #1C3224;  /* Un gris claro para el fondo */
+  position: fixed;
+  /* position: sticky; */
+  top: 64px; 
+  left: 0;
+  z-index: 1;
+  width: 250px;
+  /* height: 100%; */
+  height: 100vh;
+  padding: 4px 20px;
+  font-size: 14px;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar */
+}
+
+.sider p {
+  padding: 2px 16px;
+  cursor: pointer;
+}
+.sider p:active {
+  color: #24D083;
+}
+.sider p:hover {
+  color: #24D083;
+}
+
+/* Contenido principal con margen izquierdo para dejar espacio al Sider */
+.content {
+  /* margin-left: 250px;   */
+  flex: 1;
+  /* padding: 0 20px; */
+  background-color: #fff;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.AppHeader {
+  background-color: #1F7D53;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 40px;
+  color: white;
+
+}
+
+
+.nav-link:hover {
+  color: #1C3224;
+}
+
+button, .Button {
+  /* background-color: #1F7D53; */
+  background-color: #046224; 
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  /* border-radius: 8px; */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #046224;
+  transform: scale(1.05);
+}
+
+.navbar button {
+  background-color: transparent; /* Verde */
+  color: white;
+  padding: 12px;
+  /* border: none; */
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+.navbar button:hover {
+  /* background-color: #45a049; */
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: scale(0.98);
+}
+
+.banner-slide {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  opacity: 0.9;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+.banner-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+}
+
+
+
+.card {
+  margin: 16px;
+  width: 80% auto;
+  max-width: 300px; /* Ajusta según necesites */
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card-content h2,
+.card-content p {
+  color: black; /* Asegura que el texto dentro de las cards sea negro */
+}
+
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-image {
+  width: 100%;
+  height: 180px; /* Ajusta la altura según el diseño */
+  object-fit: cover; /* Evita que la imagen se deforme */
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.card a {
+  color: inherit;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.buy-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #219150;
+}
+
+
+/* Contenedor principal */
+.search-bar-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Contenedor de la barra de búsqueda */
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0px;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Estilos del input de búsqueda */
+.search-input {
+  flex-grow: 1;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+/* Estilos del botón de búsqueda */
+.search-button {
+  background-color: #27ae60;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Estilos del banner */
+.banner-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 120px;
+  overflow: hidden;
+  /* border-radius: 10px; */
+}
+
+.banner-image {
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 10px; */
+}
+
+.footer {
+  z-index: 2;
+  text-align: center;
+  background: #589773;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+}
+
+
+.AppFooter {
+  z-index: 2;
+  /* height: 50px; */
+  color: white;
+  background-color: #1F7D53;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  /* padding: 4px 20px 4px 12px; */
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.AppFooter a {
+  color: white;
+}
