@@ -2,19 +2,19 @@ import { Carousel } from 'antd';
 
 const contenido = [
     {
-        imagen: 'https://plus.unsplash.com/premium_photo-1663962158789-0ab624c4f17d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZKb3ujkC_haYhkKhFgscGHN0-jkWcIfOFlpiKdFYQBVc-UdYoOrcG9TOjbkQlqcoYjno&usqp=CAU',
         titulo: ' ¡Bienvenido!',
-        descripcion: '¡Disfruta de nuestra colección de plantas y decoración 🌿!',
+        descripcion: '¡Disfruta de nuestras Cabañas 🌿!',
     },
     {
-        imagen: 'https://plus.unsplash.com/premium_photo-1678382341022-0d8a8765f141?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        titulo: 'Jardin de los Sueños',
-        descripcion: 'Llena tu hogar de vida y frescura 🌿',
+        imagen: 'https://refugionatura.com/wp-content/uploads/2023/11/Cabana-A-Frame.jpg',
+        titulo: '¡Bienvenido!',
+        descripcion: '¡Disfruta de nuestras Cabañas 🌿!',
     },
     {
-        imagen: 'https://images.unsplash.com/photo-1463554050456-f2ed7d3fec09?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        titulo: 'Decoración viva',
-        descripcion: 'Crea espacios naturales con nuestras plantas ✨',
+        imagen: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/68/94/6d/caption.jpg?w=900&h=500&s=1',
+        titulo: '¡Bienvenido!',
+        descripcion: '¡Disfruta de nuestras Cabañas ✨', 
     },
 ];
 

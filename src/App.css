@@ -44,10 +44,10 @@ html, body {
   cursor: pointer;
 }
 .sider p:active {
-  color: #24D083;
+  color: #24a5d0;
 }
 .sider p:hover {
-  color: #24D083;
+  color: #247dd0;
 }
 
 /* Contenido principal con margen izquierdo para dejar espacio al Sider */
@@ -94,7 +94,7 @@ button, .Button {
 }
 
 button:hover {
-  background-color: #046224;
+  background-color: #044162;
   transform: scale(1.05);
 }
 
@@ -117,7 +117,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #3e8e41;
+  background-color: #196395;
   transform: scale(0.98);
 }
 
@@ -197,11 +197,11 @@ button:active {
 .price {
   font-size: 18px;
   font-weight: bold;
-  color: #27ae60;
+  color: #2768ae;
 }
 
 .buy-button {
-  background-color: #27ae60;
+  background-color: #2778ae;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -211,7 +211,7 @@ button:active {
 }
 
 .buy-button:hover {
-  background-color: #219150;
+  background-color: #216491;
 }
 
 
@@ -244,7 +244,7 @@ button:active {
 
 /* Estilos del botón de búsqueda */
 .search-button {
-  background-color: #27ae60;
+  background-color: #275bae;
   border-radius: 8px;
   color: white;
   padding: 10px 20px;
@@ -268,7 +268,7 @@ button:active {
 .footer {
   z-index: 2;
   text-align: center;
-  background: #589773;
+  background: #1764a8;
   color: white;
   padding: 15px;
   font-size: 14px;
