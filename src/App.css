@@ -24,7 +24,7 @@ html, body {
 .sider {
   color: white;
   /* cursor: pointer; */
-  background-color: #1C3224;  /* Un gris claro para el fondo */
+  background-color: #155182;  /* Un gris claro para el fondo */
   position: fixed;
   /* position: sticky; */
   top: 64px; 
@@ -76,12 +76,12 @@ html, body {
 
 
 .nav-link:hover {
-  color: #1C3224;
+  color: #22668e;
 }
 
 button, .Button {
   /* background-color: #1F7D53; */
-  background-color: #046224; 
+  background-color: #135584; 
   color: white;
   padding: 12px 24px;
   border: none;
@@ -197,11 +197,11 @@ button:active {
 .price {
   font-size: 18px;
   font-weight: bold;
-  color: #27ae60;
+  color: #2771ae;
 }
 
 .buy-button {
-  background-color: #27ae60;
+  background-color: #276fae;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -211,7 +211,7 @@ button:active {
 }
 
 .buy-button:hover {
-  background-color: #219150;
+  background-color: #217391;
 }
 
 
@@ -244,7 +244,7 @@ button:active {
 
 /* Estilos del botón de búsqueda */
 .search-button {
-  background-color: #27ae60;
+  background-color: #278eae;
   border-radius: 8px;
   color: white;
   padding: 10px 20px;
@@ -268,7 +268,7 @@ button:active {
 .footer {
   z-index: 2;
   text-align: center;
-  background: #589773;
+  background: #12719d;
   color: white;
   padding: 15px;
   font-size: 14px;
@@ -279,7 +279,7 @@ button:active {
   z-index: 2;
   /* height: 50px; */
   color: white;
-  background-color: #1F7D53;
+  background-color: #0e6a8b;
   display: flex;
   flex-direction: column;
   gap: 4px;
