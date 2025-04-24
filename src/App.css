@@ -24,7 +24,7 @@ html, body {
 .sider {
   color: white;
   /* cursor: pointer; */
-  background-color: #1C3224;  /* Un gris claro para el fondo */
+  background-color: #3b4041;  /* Un gris claro para el fondo */
   position: fixed;
   /* position: sticky; */
   top: 64px; 

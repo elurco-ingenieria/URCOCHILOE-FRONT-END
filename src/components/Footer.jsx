@@ -18,31 +18,31 @@ return (
                 <WhatsAppIcon style={{ fontSize: "20px" }} />
                 {/* WhastApp */}
                 </Typography.Link>
-            <Typography.Link href="mailto:jardindelosuenos@gmail.com"
+            <Typography.Link href="mailto:alojamientosrokadan@gmail.com"
             style={{ color: "white", display: "flex", gap: "2px", alignItems: "center" }}>
                 <EmailIcon style={{ fontSize: "20px" }} />
                 {/* Email */}
                 </Typography.Link>
 
-            <Typography.Link href="https://www.instagram.com/jardindelosuenos/"
+            <Typography.Link href="https://www.instagram.com/alojamientosrokadan/"
             style={{ color: "white", display: "flex", gap: "2px", alignItems: "center" }}>
                 <InstagramIcon style={{ fontSize: "20px" }} />
                 {/* Instagram */}
                 </Typography.Link>
-            <Typography.Link href="https://www.twitter.com/jardindelosuenos"
+            <Typography.Link href="https://www.twitter.com/alojamientosrokadan"
             style={{ color: "white", display: "flex", gap: "2px", alignItems: "center" }}>
                 <TwitterIcon style={{ fontSize: "20px" }} />
                 {/* Twitter */}
                 </Typography.Link>
-            <Typography.Link href="https://www.facebook.com/jardindelosuenos"
+            <Typography.Link href="https://www.facebook.com/alojamientosrokadan"
             style={{ color: "white", display: "flex", gap: "2px", alignItems: "center" }}>
                 <FacebookIcon style={{ fontSize: "20px" }} />
                 {/* Facebook */}
                 </Typography.Link>
         </Space>
         <Space>
-            <Typography.Link href="https://www.twitter.com/jardindelosuenos">Políticas de Privacidad</Typography.Link>
-            <Typography.Link href="https://www.facebook.com/jardindelosuenos">Términos y Condiciones</Typography.Link>
+            <Typography.Link href="https://www.twitter.com/alojamientosrokadan">Políticas de Privacidad</Typography.Link>
+            <Typography.Link href="https://www.facebook.com/alojamientosrokadan">Términos y Condiciones</Typography.Link>
         </Space>
     {/* <p>&copy; {new Date().getFullYear()} Tu Tienda de Plantas. Todos los derechos reservados.</p> */}
     </Footer>
