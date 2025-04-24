@@ -27,8 +27,8 @@ const Navbar = () => {
         <Header className="AppHeader">
             <Typography.Title color="white" style={{ fontSize: "28px", display: "flex", gap: "8px", alignItems: "center" }}>
                 <GrassIcon color="white" style={{ fontSize: "40px", color: "white" }} />
-                <NavLink to="/" style={{ color: "#f3f3f3" }}>
-                    Jardin de los Sueños
+                <NavLink to="/" style={{ color: "#1e5270" }}>
+                    Alojamientos Rokadan
                 </NavLink>
             </Typography.Title>
             <Space>
