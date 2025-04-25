@@ -73,7 +73,7 @@ const ProductPage = () => {
                 {/* Información del producto */}
                 <div style={{ flex: "1", maxWidth: "500px" }}>
                     <h2 style={{ fontSize: "28px", marginBottom: "10px" }}>{producto.nombre_producto}</h2>
-                    <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#555", marginBottom: "20px" }}>
+                    <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#266080", marginBottom: "20px" }}>
                         {producto.descripcion}
                     </p>
                     {/* <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#555", marginBottom: "20px" }}>
@@ -98,7 +98,7 @@ const ProductPage = () => {
                         style={{ transition: "background 0.3s", marginRight: "10px" }}
                         
                     >
-                        🛒 Añadir al carrito
+                        🛒 Reservar
                     </button>
         
                     {/* <p style={{ fontSize: "16px", lineHeight: "1.5", color: "#555", marginBottom: "20px" }}>
