@@ -4,17 +4,17 @@ const contenido = [
     {
         imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZKb3ujkC_haYhkKhFgscGHN0-jkWcIfOFlpiKdFYQBVc-UdYoOrcG9TOjbkQlqcoYjno&usqp=CAU',
         titulo: ' ¡Bienvenido!',
-        descripcion: '¡Disfruta de nuestras Cabañas 🌿!',
+        descripcion: '¡Disfruta de nuestros Alojamientos 🌿!',
     },
     {
         imagen: 'https://refugionatura.com/wp-content/uploads/2023/11/Cabana-A-Frame.jpg',
         titulo: '¡Bienvenido!',
-        descripcion: '¡Disfruta de nuestras Cabañas 🌿!',
+        descripcion: '¡Disfruta de nuestras Alojamientos 🌿!',
     },
     {
         imagen: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/68/94/6d/caption.jpg?w=900&h=500&s=1',
         titulo: '¡Bienvenido!',
-        descripcion: '¡Disfruta de nuestras Cabañas ✨', 
+        descripcion: '¡Disfruta de nuestras Alojamientos ✨', 
     },
 ];
 

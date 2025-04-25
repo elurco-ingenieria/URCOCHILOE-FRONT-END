@@ -41,14 +41,14 @@ const Navbar = () => {
                                     className="nav-link" 
                                     style={{ color: "white" }}
                                 >
-                                    Tienda
+                                    Inicio
                                 </NavLink>
                                 <NavLink 
                                     to="/cart"     
                                     className="nav-link" 
                                     style={{ color: "white" }}
                                 >
-                                    Carrito
+                                    Reservas
                                 </NavLink>
                                 <NavLink
                                     to="/profile" 
@@ -66,7 +66,7 @@ const Navbar = () => {
                                 className="nav-link" 
                                 style={{ color: "white" }}
                             >
-                                Tienda
+                                Inicio
                             </NavLink>
                             <NavLink 
                                 to="/admin" 
@@ -93,7 +93,7 @@ const Navbar = () => {
                             className="nav-link" 
                             style={{ color: "white" }}
                         >
-                            Tienda
+                            Inicio
                         </NavLink>
                         <NavLink 
                             to="/login" 

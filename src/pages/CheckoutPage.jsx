@@ -236,7 +236,7 @@ const CheckoutPage = () => {
 
                 <button style={{ display: "flex", gap: "8px", alignItems: "center" }} onClick={handleCheckout}>
                     <ShoppinCartIcon style={{ fontSize: "20px" }} />
-                    Confirmar Compra
+                    Confirmar Reserva
                 </button>
             </div>
             <br />
@@ -244,7 +244,7 @@ const CheckoutPage = () => {
             <button style={{ display: "flex", gap: "8px", alignItems: "center", background: "transparent", color: "#1F7D53", border: "2px solid #1F7D53" }}>
                     <ShoppinCartIcon style={{ fontSize: "20px" }} />
                     <Link to="/cart" style={{ color: "#1F7D53", textDecoration: "none" }}>
-                    Volver al Carrito
+                    Volver a las Reservas
                     </Link>
                 </button>
         </div>

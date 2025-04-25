@@ -53,7 +53,7 @@ const LoginPage = () => {
   return (
     <>
     <div style={{ padding: "20px", display: "flex", flexDirection: "column", alignItems: "flex-start", height : "100vh", margin: "auto", width: "360px" }}>
-      <h3 style={{ borderBottom: "2px solid #1F7D53" }}>Iniciar Sesión</h3>
+      <h3 style={{ borderBottom: "2px solidrgb(31, 84, 125)" }}>Iniciar Sesión</h3>
       <Form onFinish={handleSubmit} style={{ width: "360px" }}>
         <Form.Item name="email">
           <Input

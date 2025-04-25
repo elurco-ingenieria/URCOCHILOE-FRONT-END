@@ -6,7 +6,7 @@ const SearchBar = ({ onSearch }) => {
         <div className="search-bar">
             <Input
             className="search-input"
-            placeholder="Buscar producto"
+            placeholder="Buscar Alojamientos"
             size="large"
             onChange={(e) => onSearch(e.target.value)}  // Llamamos a la función onSearch cuando cambia el valor
             />

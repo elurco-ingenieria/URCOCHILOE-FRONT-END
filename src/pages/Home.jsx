@@ -95,7 +95,7 @@ return (
             }}
             onClick={() => handleCategoryClick(null)}
           >
-            Mostrar todo
+            Ciudades
           </p>
           {categorias.map((categoria) => (
             <p
@@ -148,7 +148,7 @@ return (
                 })
               ) : (
                 <Col span={24} style={{ textAlign: 'center', marginTop: '20px' }}>
-                  No se encontraron productos
+                  No se encontraron Alojamientos
                 </Col>
               )}
             </Row>

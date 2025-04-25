@@ -44,7 +44,7 @@ return (
             <Typography.Link href="https://www.twitter.com/alojamientosrokadan">Políticas de Privacidad</Typography.Link>
             <Typography.Link href="https://www.facebook.com/alojamientosrokadan">Términos y Condiciones</Typography.Link>
         </Space>
-    {/* <p>&copy; {new Date().getFullYear()} Tu Tienda de Plantas. Todos los derechos reservados.</p> */}
+    {/* <p>&copy; {new Date().getFullYear()}  Todos los derechos reservados.</p> */}
     </Footer>
 );
 };

@@ -46,10 +46,10 @@ const CartPage = () => {
     return (
         <>
         <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", alignItems: "center", padding: "40px", overflow: "auto" }}>
-            <h2 style={{ fontSize: "28px" }}>🛒 Carrito de Compras</h2>
+            <h2 style={{ fontSize: "28px" }}>🛒 Gestion De Reservas</h2>
 
             {cart.length === 0 ? (
-                <p style={{ fontSize: "18px", color: "#666" }}>El carrito está vacío</p>
+                <p style={{ fontSize: "18px", color: "#666" }}>No Hay Reservas</p>
             ) : (
                 <div style={{ width: "100%", maxWidth: "1200px", backgroundColor: "#fff", padding: "20px", borderRadius: "10px", boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)" }}>
                     <table style={{ width: "100%", borderCollapse: "collapse" }}>
@@ -108,7 +108,7 @@ const CartPage = () => {
             {/* Botón de volver a la tienda */}
             <br />
             <br />
-            <button onClick={() => navigate("/")} >⬅ Volver a la Tienda</button>
+            <button onClick={() => navigate("/")} >⬅ Volver a Alojamientos</button>
         </div>
         <AppFooter />
         </>
