@@ -7,12 +7,12 @@ const contenido = [
         descripcion: '¡Disfruta de nuestros Alojamientos 🌿!',
     },
     {
-        imagen: 'https://refugionatura.com/wp-content/uploads/2023/11/Cabana-A-Frame.jpg',
+        imagen: 'https://www.madera21.cl/wp-content/uploads/2020/08/Casa-Bosque_Acceso-2.jpg',
         titulo: '¡Bienvenido!',
         descripcion: '¡Disfruta de nuestras Alojamientos 🌿!',
     },
     {
-        imagen: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/68/94/6d/caption.jpg?w=900&h=500&s=1',
+        imagen: 'https://images.adsttc.com/media/images/5fb2/eec9/63c0/1779/5e00/016d/large_jpg/TIFF-LAC-BROME-12.jpg?1605562023',
         titulo: '¡Bienvenido!',
         descripcion: '¡Disfruta de nuestras Alojamientos ✨', 
     },
