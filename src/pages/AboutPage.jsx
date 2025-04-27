@@ -19,7 +19,7 @@ const About = () => {
         {
             nombre: "María González",
             comentario: "Los alojamientos fueron perfectos y el equipo siempre estuvo atento a nuestras necesidades.",
-            imagen: "https://www.google.com/imgres?q=chiloe&imgurl=https%3A%2F%2Foctaviaviajando.com%2Fwp-content%2Fuploads%2F2021%2F11%2Fcastro_palafitos_octaviaviajando.jpg&imgrefurl=https%3A%2F%2Foctaviaviajando.com%2F2024%2F04%2F19%2F10-imperdibles-de-chiloe%2F&docid=7mkHvaAuY_wrBM&tbnid=NIcKfI2LTpL84M&vet=12ahUKEwiN_ZmDsPeMAxVKIbkGHcO6DvcQM3oECHwQAA..i&w=1080&h=722&hcb=2&ved=2ahUKEwiN_ZmDsPeMAxVKIbkGHcO6DvcQM3oECHwQAA", // ruta de la imagen
+            imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExvkt9t5ziKNqqRY0kmqMVRJiyYdiwPNskw&s", // ruta de la imagen
         },
         {
             nombre: "Carlos López",
@@ -49,10 +49,17 @@ const About = () => {
                 Gracias por confiar en nosotros y permitirnos ser parte de tus aventuras en Chiloé.
             </p>
             <img 
-                src="https://www.google.com/imgres?q=chiloe&imgurl=https%3A%2F%2Fviajaresdescubrir.com%2Fwp-content%2Fuploads%2F2024%2F07%2Fque-ver-chiloe-isla-aucar.jpg&imgrefurl=https%3A%2F%2Fviajaresdescubrir.com%2Fque-ver-en-chiloe-11-lugares-imprescindibles%2F&docid=iKzpyD0JNx1qcM&tbnid=Ol-6p4zY0eTcxM&vet=12ahUKEwiN_ZmDsPeMAxVKIbkGHcO6DvcQM3oECGkQAA..i&w=1300&h=867&hcb=2&ved=2ahUKEwiN_ZmDsPeMAxVKIbkGHcO6DvcQM3oECGkQAA" 
+                src="https://octaviaviajando.com/wp-content/uploads/2021/11/castro_palafitos_octaviaviajando.jpg" 
                 alt="Imagen representativa de Chiloé" 
                 style={{ marginTop: "20px", width: "100%", maxWidth: "600px", borderRadius: "8px" }}
             />
+
+
+                    <img 
+                        src="https://images.adsttc.com/media/images/5f20/ba7e/b357/653d/3a00/0729/slideshow/FEATURE.jpg?1595980398" 
+                        alt="Cabaña" 
+                        className="img-fluid rounded mt-4"
+                    />
 
             {/* Sección de comentarios */}
             <div style={{ marginTop: "40px" }}>
