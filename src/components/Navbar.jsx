@@ -79,6 +79,9 @@ const Navbar = () => {
                         <NavLink to="/" className="nav-link" style={{ color: "white" }}>
                             Inicio
                         </NavLink>
+                        <NavLink to="/about" className="nav-link" style={{ color: "white" }}>
+                                    Rokadan
+                        </NavLink>
                         <NavLink to="/login" className="nav-link" style={{ color: "white" }}>
                             Iniciar Sesión
                         </NavLink>
