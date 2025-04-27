@@ -62,7 +62,7 @@ const CheckoutPage = () => {
     const handleCheckout = async () => {
         try {
             if (!userData.nombre || !userData.direccion || !userData.ciudad || !userData.email) {
-                alert("Por favor completa todos los campos");
+                alert("Por favor confirme los datos De Contacto!!");
                 return;
             }
             const userId = localStorage.getItem("userId");
@@ -87,17 +87,17 @@ const CheckoutPage = () => {
             const response = await axios.post(`${apiURL}/pedidos`, orderData);
             
             if (!response.status === 201) {
-                throw new Error(response.error || 'Error al procesar el pedido');
+                throw new Error(response.error || 'Error al procesar la reserva');
             }
 
             // Si todo salió bien, limpiar el carrito
             clearCart();
-            message.success("🎉 Compra confirmada. ¡Gracias por tu compra! 🎉");
+            message.success("🎉 reserva realizada. ¡Gracias por tu reserva! 🎉");
             navigate("/");
 
         } catch (error) {
-            console.error("Error al procesar la compra:", error);
-            alert("Hubo un error al procesar tu compra. Por favor, intenta nuevamente.");
+            console.error("Error al procesar la reserva:", error);
+            alert("Hubo un error al procesar la reserva. Por favor, intenta nuevamente.");
         }
     };
 
@@ -227,7 +227,7 @@ const CheckoutPage = () => {
                 ) : (
                     <button style={{ display: "flex", gap: "8px", alignItems: "center" }} onClick={() => setIsEditing(true)}>
                         <EditIcon style={{ fontSize: "20px" }} />
-                        Editar Información
+                        Confirmar Datos De Contacto
                     </button>
                 )}
 
