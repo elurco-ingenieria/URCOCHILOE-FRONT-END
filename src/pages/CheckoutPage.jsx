@@ -30,7 +30,6 @@ const CheckoutPage = () => {
     useEffect(() => {
         // Obtener el userId del almacenamiento local
         const userId = localStorage.getItem("userId");
-        //console.log("userId:", userId);
         
         if (!userId) {
             navigate("/login");
@@ -39,7 +38,6 @@ const CheckoutPage = () => {
 
         // Obtener datos del usuario del localStorage
         const user = JSON.parse(localStorage.getItem("user"));
-        //console.log("user data:", user); 
         
         if (user) {
             setUserData({
@@ -86,12 +84,7 @@ const CheckoutPage = () => {
                 direccion: userData.direccion,
             };
 
-            //console.log('Datos a enviar:', orderData);
-            // Enviar el pedido al backend
-            //const response = await axios.post('http://localhost:3000/api/pedidos', orderData);
             const response = await axios.post(`${apiURL}/pedidos`, orderData);
-
-            //const responseData = await response.json();
             
             if (!response.status === 201) {
                 throw new Error(response.error || 'Error al procesar el pedido');
@@ -116,7 +109,7 @@ const CheckoutPage = () => {
             alignItems: "center",
             padding: "40px"
         }}>
-            <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>📦 Checkout</h2>
+            <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>Confirmación de Reserva</h2>
 
             {/* Resumen de productos */}
             <div style={{
@@ -128,7 +121,6 @@ const CheckoutPage = () => {
                 marginBottom: "30px"
             }}>
                 {cart.map((product) => {
-                    //const productoImagen = imagenes?.[product.id_producto - 1].url;
                     const productoImagen = imagenes?.find(img => img.id_producto === product.id_producto)?.url;
 
                     return (
@@ -162,7 +154,7 @@ const CheckoutPage = () => {
                 })}
             </div>
 
-            {/* Información de envío */}
+            {/* Información de envío/ahora reserva */}
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -170,9 +162,14 @@ const CheckoutPage = () => {
                 gap: "15px",
                 width: "100%",
                 maxWidth: "600px",
-                marginBottom: "30px"
+                marginBottom: "30px",
+                padding: "20px", // Espaciado interno
+                borderRadius: "12px", // Esquinas redondeadas
+                border: "1px solid #ddd", // Borde del contenedor
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Sombra para un diseño más atractivo
+                backgroundColor: "white" // Fondo blanco
             }}>
-                <h4>Información de Envío</h4>
+                <h4 style={{ marginBottom: "15px" }}>Datos de contacto para la Reserva</h4>
                 {[
                     { field: 'nombre', label: 'Nombre' },
                     { field: 'email', label: 'Email' },

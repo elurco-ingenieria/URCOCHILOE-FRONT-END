@@ -52,52 +52,95 @@ const LoginPage = () => {
 
   return (
     <>
-    <div style={{ padding: "20px", display: "flex", flexDirection: "column", alignItems: "flex-start", height : "100vh", margin: "auto", width: "360px" }}>
-      <h3 style={{ borderBottom: "2px solidrgb(31, 84, 125)" }}>Iniciar Sesión</h3>
-      <Form onFinish={handleSubmit} style={{ width: "360px" }}>
-        <Form.Item name="email">
-          <Input
-            type="email"
-            value={email}
-            placeholder="Correo electrónico"
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            style={{ borderRadius: "0" }}
-          />
-        </Form.Item>
-        <Form.Item name="password">
-          <Input.Password
-            value={password}
-            placeholder="Contraseña"
-            onChange={(e) => setPassword(e.target.value)}
-            required
-            style={{ borderRadius: "0" }}
-          />
-        </Form.Item>
-        <Form.Item
-          style={{ display: "flex", justifyContent: "flex-end" }}>
-          <Button 
-            className="Button" 
-            htmlType="submit" 
-            type="secondary"
-            style={{ display: "flex", gap: "8px", alignItems: "center", padding: "12px 32px 12px 12px", width: "360px", justifyContent: "center", borderRadius: "0" }}
-          >
-            <LoginIcon style={{ fontSize: "20px" }} />
+      <div
+        style={{
+          padding: "20px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100vh",
+          backgroundImage: "url('https://wallpapers.com/images/hd/hotel-background-2qosz2h6xb1xpnka.jpg')", // Ruta de la imagen de fondo
+          backgroundSize: "cover", // Ajusta la imagen para cubrir todo el fondo
+          backgroundPosition: "center", // Centra la imagen
+          backgroundRepeat: "no-repeat", // Evita que la imagen se repita
+        }}
+      >
+        <div
+          style={{
+            padding: "20px",
+            width: "360px",
+            borderRadius: "12px", // Esquinas redondeadas
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Sombra para el recuadro
+            backgroundColor: "white", // Fondo blanco
+            opacity: 0.95, // Ligera transparencia para resaltar el fondo
+          }}
+        >
+          <h3 style={{ borderBottom: "2px solid #1F7D53", paddingBottom: "8px" }}>
             Iniciar Sesión
-          </Button>
-        </Form.Item>
-        <Form.Item>
-          <Button 
-            className="Button" 
-            style={{ display: "flex", alignItems: "center", padding: "12px 12px 12px 12px", justifyContent: "center", backgroundColor: "transparent", color: "#1F7D53", border: "2px solid #1F7D53", width: "360px", borderRadius: "0" }} 
-            onClick={() => navigate("/register")}>
-            {/* <PersonAddIcon style={{ fontSize: "20px" }} /> */}
-            Crear cuenta
-          </Button>
-        </Form.Item>
-      </Form>
-    </div>
-    <AppFooter />
+          </h3>
+          <Form onFinish={handleSubmit} style={{ width: "100%" }}>
+            <Form.Item name="email">
+              <Input
+                type="email"
+                value={email}
+                placeholder="Correo electrónico"
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                style={{ borderRadius: "0" }}
+              />
+            </Form.Item>
+            <Form.Item name="password">
+              <Input.Password
+                value={password}
+                placeholder="Contraseña"
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                style={{ borderRadius: "0" }}
+              />
+            </Form.Item>
+            <Form.Item style={{ display: "flex", justifyContent: "center" }}>
+              <Button
+                className="Button"
+                htmlType="submit"
+                type="secondary"
+                style={{
+                  display: "flex",
+                  gap: "8px",
+                  alignItems: "center",
+                  padding: "12px 32px 12px 12px",
+                  justifyContent: "center",
+                  width: "100%",
+                  borderRadius: "0",
+                }}
+              >
+                <LoginIcon style={{ fontSize: "20px" }} />
+                Iniciar Sesión
+              </Button>
+            </Form.Item>
+            <Form.Item>
+              <Button
+                className="Button"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  padding: "12px 12px 12px 12px",
+                  justifyContent: "center",
+                  backgroundColor: "transparent",
+                  color: "#1F7D53",
+                  border: "2px solid #1F7D53",
+                  width: "100%",
+                  borderRadius: "0",
+                }}
+                onClick={() => navigate("/register")}
+              >
+                Crear cuenta
+              </Button>
+            </Form.Item>
+          </Form>
+        </div>
+      </div>
+      <AppFooter />
     </>
   );
 };

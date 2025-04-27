@@ -86,12 +86,22 @@ const Home = () => {
 return (
   <Layout style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       <Layout style={{ flex: 1 }}>
-        {/* Sidebar con categorías */}
-        <Sider className="sider" width={250}>
+        {/* Categorías en formato horizontal */}
+        <div
+          className="categories-bar"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "#001529",
+            padding: "10px 0",
+          }}
+        >
           <p
             style={{
               cursor: "pointer",
               color: !selectedCategory ? "#24D083" : "white",
+              margin: "0 15px",
             }}
             onClick={() => handleCategoryClick(null)}
           >
@@ -106,21 +116,22 @@ return (
                   selectedCategory?.id_categoria === categoria.id_categoria
                     ? "#24D083"
                     : "white",
+                margin: "0 15px",
               }}
               onClick={() => handleCategoryClick(categoria)}
             >
               {categoria.nombre_categoria}
             </p>
           ))}
-        </Sider>
+        </div>
 
         {/* Contenido principal */}
         <Layout>
-          <Content className="content" style={{ marginLeft: "250px", paddingBottom: "40px" }}>
+          <Content className="content" style={{ paddingBottom: "40px" }}>
             <Carousel />
             <SearchBar onSearch={handleSearch} />
             <h3 style={{ textAlign: "center", marginBottom: "4px" }}>
-              Catálogo de Productos
+              Catálogo de Alojamientos
             </h3>
             <Row 
               gutter={[16, 16]} 
