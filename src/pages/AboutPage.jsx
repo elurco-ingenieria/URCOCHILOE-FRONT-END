@@ -54,13 +54,6 @@ const About = () => {
                 style={{ marginTop: "20px", width: "100%", maxWidth: "600px", borderRadius: "8px" }}
             />
 
-
-                    <img 
-                        src="https://images.adsttc.com/media/images/5f20/ba7e/b357/653d/3a00/0729/slideshow/FEATURE.jpg?1595980398" 
-                        alt="Cabaña" 
-                        className="img-fluid rounded mt-4"
-                    />
-
             {/* Sección de comentarios */}
             <div style={{ marginTop: "40px" }}>
                 <h2 style={{ marginBottom: "20px", color: "#1F7D53" }}>Comentarios de nuestros clientes</h2>
