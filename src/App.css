@@ -62,7 +62,7 @@ html, body {
 }
 
 .AppHeader {
-  background-color: #1f497d;
+  background-color: #20968c;
   height: 64px;
   display: flex;
   justify-content: space-between;
@@ -80,12 +80,10 @@ html, body {
 }
 
 button, .Button {
-  /* background-color: #1F7D53; */
-  background-color: #043f62; 
+  background-color: #51948b; /* Color actualizado */
   color: white;
   padding: 12px 24px;
   border: none;
-  /* border-radius: 8px; */
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -94,15 +92,19 @@ button, .Button {
 }
 
 button:hover {
-  background-color: #044162;
+  background-color: #044162; /* Color para hover */
   transform: scale(1.05);
 }
 
+button:active {
+  background-color: #196395; /* Color para estado activo */
+  transform: scale(0.98);
+}
+
 .navbar button {
-  background-color: transparent; /* Verde */
+  background-color: #51948b; /* Color actualizado */
   color: white;
   padding: 12px;
-  /* border: none; */
   border-radius: 8px;
   font-size: 14px;
   font-weight: bold;
@@ -112,13 +114,7 @@ button:hover {
 }
 
 .navbar button:hover {
-  /* background-color: #45a049; */
   transform: scale(1.05);
-}
-
-button:active {
-  background-color: #196395;
-  transform: scale(0.98);
 }
 
 .banner-slide {
@@ -201,7 +197,7 @@ button:active {
 }
 
 .buy-button {
-  background-color: #2778ae;
+  background-color: #51948b; /* Color actualizado */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -211,7 +207,7 @@ button:active {
 }
 
 .buy-button:hover {
-  background-color: #216491;
+  background-color: #216491; /* Color para hover */
 }
 
 
@@ -219,7 +215,7 @@ button:active {
 .search-bar-container {
   width: 100%;
   padding: 20px;
-  background-color: #747373;
+  background-color: #4c535396;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,7 +275,7 @@ button:active {
   z-index: 2;
   /* height: 50px; */
   color: white;
-  background-color: #1f5c7d;
+  background-color: #169181;
   display: flex;
   flex-direction: column;
   gap: 4px;
