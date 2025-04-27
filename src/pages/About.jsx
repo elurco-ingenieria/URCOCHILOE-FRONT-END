@@ -1,5 +1,14 @@
-// En src/pages/About.jsx
-// En src/pages/About.jsx
+import { useState } from "react";
+import { Input, Button, Form, message } from "antd";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
+//import users from "../data/usuarios.json";
+import AppFooter from "../components/Footer";
+import LoginIcon from '@mui/icons-material/Login';
+import axios from "axios";
+const apiURL = import.meta.env.VITE_API_URL;
+
+
 const About = () => {
     const comentarios = [
         {

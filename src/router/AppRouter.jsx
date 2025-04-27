@@ -23,7 +23,7 @@ const AppRouter = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/product/:id" element={<ProductPage />} />
-            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="/about" element={<About />} /> 
             <Route path="*" element={<NotFound />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
@@ -45,6 +45,16 @@ const AppRouter = () => {
                     </PrivateRoute>
             }
             />
+
+            <Route
+                path="/about"
+                element={
+                    <PrivateRoute requiredRole="cliente">
+                    <AboutPage />
+                    </PrivateRoute>
+            }
+            />
+
             <Route
                 path="/checkout"
                 element={
