@@ -2,7 +2,7 @@ import { Carousel } from 'antd';
 
 const contenido = [
     {
-        imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZKb3ujkC_haYhkKhFgscGHN0-jkWcIfOFlpiKdFYQBVc-UdYoOrcG9TOjbkQlqcoYjno&usqp=CAU',
+        imagen: 'https://images.adsttc.com/media/images/61ca/2e16/b038/0601/6505/32e8/large_jpg/casa-bosque-jardin.jpg?1640640053',
         titulo: ' ¡Bienvenido!',
         descripcion: '¡Disfruta de nuestros Alojamientos 🌿!',
     },
