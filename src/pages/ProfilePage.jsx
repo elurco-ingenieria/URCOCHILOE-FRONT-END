@@ -150,7 +150,7 @@ const handleSave = () => {
           <Content className="content" style={{ marginLeft: "250px" }}>
             {showOrders ? (
               <div style={{ padding: "20px", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                <h2>Historial de Compras</h2>
+                <h2>Historial de Reservas</h2>
                 {userOrders.length > 0 ? (
                   <Table 
                     dataSource={userOrders} 
