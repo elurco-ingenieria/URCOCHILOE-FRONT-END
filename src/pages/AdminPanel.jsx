@@ -229,8 +229,8 @@ const AdminPanel = () => {
                     <div>
                         <p onClick={() => handleMenuClick({ key: "informacion" })}>Información Personal</p>
                         <p onClick={() => handleMenuClick({ key: "usuarios" })}>Administrar Usuarios</p>
-                        <p onClick={() => handleMenuClick({ key: "catalogo" })}>Catálogo de Productos</p>
-                        <p onClick={() => handleMenuClick({ key: "ventas" })}>Historial de Ventas</p>
+                        <p onClick={() => handleMenuClick({ key: "catalogo" })}>Catálogo de Alojamientos</p>
+                        <p onClick={() => handleMenuClick({ key: "ventas" })}>Historial de Reservas</p>
                     </div>
                 </Sider>
                 <Layout>
@@ -398,7 +398,7 @@ const AdminPanel = () => {
                         </div>
                         ) : showVentas ? (
                         <div style={{ padding: "20px" }}>
-                            <h2>Historial de Ventas</h2>
+                            <h2>Historial de Reservas</h2>
                             {console.log(orders)}
                             <Table
                             dataSource={Array.isArray(orders) ? orders : []}
@@ -431,7 +431,7 @@ const AdminPanel = () => {
                             expandable={{
                                 expandedRowRender: (record) => (
                                     <div>
-                                    <Title level={5} style={{ marginBottom: "10px" }}>🛒 Detalle de la Compra</Title>
+                                    <Title level={5} style={{ marginBottom: "10px" }}>🛒 Detalle de la Reserva</Title>
                                     <Table
                                         dataSource={record.detalle}
                                         columns={[

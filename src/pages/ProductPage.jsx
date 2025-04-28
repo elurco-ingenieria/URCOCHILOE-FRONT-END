@@ -16,7 +16,7 @@ const ProductPage = () => {
     const producto = productos.find((producto) => producto.id_producto === parseInt(id));
 
     if (!producto) {
-        return <p style={{ textAlign: "center", fontSize: "18px", marginTop: "20px" }}>Producto no encontrado</p>;
+        return <p style={{ textAlign: "center", fontSize: "18px", marginTop: "20px" }}>Alojamiento no encontrado</p>;
     }
 
     // Filtrar imágenes asociadas al producto

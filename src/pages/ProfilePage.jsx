@@ -126,7 +126,7 @@ const handleSave = () => {
               </span>
             ))
           ) : (
-            <span>No hay productos</span>
+            <span>No hay Alojamientos</span>
           )}
         </span>
       ),
