@@ -143,7 +143,7 @@ const handleSave = () => {
         {/* Sidebar con categoria */}
         <Sider className="sider" width={250}>
           <p onClick={() => handleMenuClick({ key: "informacion" })}>Perfil de Usuario</p>
-          <p onClick={() => handleMenuClick({ key: "historial" })}>Historial de Compras</p>
+          <p onClick={() => handleMenuClick({ key: "historial" })}>Historial de Reservas</p>
         </Sider>
         {/* Contenido principal */}
         <Layout>
