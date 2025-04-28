@@ -257,9 +257,9 @@ const AdminPanel = () => {
                         ) : showCatalogo ? (
                         <div style={{ padding: "20px" }}>
                             <div style={{ display: "flex", justifyContent: "space-between", alignItems:"center" }}>
-                                <h2>Catálogo de Productos</h2>
+                                <h2>Catálogo de Alojamientos</h2>
                                 <button onClick={() => setIsModalOpen(true)} style={{ marginBottom: "10px" }}>
-                                    Agregar Producto
+                                    Agregar Alojamientos
                                 </button>
                             </div>
                             <Table
