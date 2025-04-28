@@ -333,7 +333,7 @@ const AdminPanel = () => {
                             rowKey="id_producto"
                             />
                             <Modal 
-                                title="Agregar Producto" 
+                                title="Agregar Alojamiento" 
                                 open={isModalOpen} 
                                 onCancel={() => {
                                     form.resetFields();
