@@ -32,7 +32,7 @@ const Navbar = () => {
                     }}
                 >
                     <NavLink to="/" style={{ color: "#f3f3f3", textDecoration: "none" }}>
-                        Alojamientos Rokadan
+                        EL URCO CHILOE
                     </NavLink>
                 </Typography.Title>
             </nav>
@@ -45,7 +45,7 @@ const Navbar = () => {
                                     Inicio
                                 </NavLink>
                                 <NavLink to="/about" className="nav-link" style={{ color: "white" }}>
-                                    Rokadan
+                                    Urco Chiloe
                                 </NavLink>
                                 <NavLink to="/cart" className="nav-link" style={{ color: "white" }}>
                                     Reservas

@@ -42,7 +42,7 @@ const AppFooter = () => {
                 {/* Ícono de Copyright */}
                 <Typography.Link style={{ color: "white", display: "flex", gap: "2px", alignItems: "center" }}>
                     <CopyrightIcon style={{ fontSize: "20px" }} />
-                    Todos los derechos reservados Rokadan 2025
+                    Todos los derechos reservados Urco Chiloe 2025
                 </Typography.Link>
             </Space>
         </Footer>
