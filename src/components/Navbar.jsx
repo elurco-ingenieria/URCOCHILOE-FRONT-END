@@ -80,7 +80,7 @@ const Navbar = () => {
                             Inicio
                         </NavLink>
                         <NavLink to="/about" className="nav-link" style={{ color: "white" }}>
-                                    Rokadan
+                                    Urco Chiloe
                         </NavLink>
                         <NavLink to="/login" className="nav-link" style={{ color: "white" }}>
                             Iniciar Sesión
