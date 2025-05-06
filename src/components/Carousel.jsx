@@ -12,7 +12,7 @@ const contenido = [
         descripcion: '¡Disfruta de nuestras Alojamientos 🌿!',
     },
     {
-        imagen: 'https://web.facebook.com/photo.php?fbid=680680710890124&set=pb.100068446025798.-2207520000&type=3&locale=es_LA',
+        imagen: 'https://scontent.fyai4-1.fna.fbcdn.net/v/t39.30808-6/473672580_122116298426616243_5082192132296299461_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFJUPawwGtLNbFapx7GsLrewTycRWgS6QHBPJxFaBLpAWvBrKbYS8EW70IahNX50GiBLsoGh7iJWkpgOT-bq-qw&_nc_ohc=O5oioZSV0V0Q7kNvwG00N6G&_nc_oc=Adl5klsU-hFp2ZD3-ErVvS50TyCWscUFpLppoN8i1-w68ptUmT2kzbPZU7BrAlTTqrA&_nc_zt=23&_nc_ht=scontent.fyai4-1.fna&_nc_gid=JflQG2EWOSGIJ91wxTGIzA&oh=00_AfIqwIxOvFFPfEjrrEpj4JjXsVKsZoreOwYSkoCnJvsyfA&oe=681F5A42',
         titulo: '¡Bienvenido!',
         descripcion: '¡Disfruta de nuestras Alojamientos ✨', 
     },
